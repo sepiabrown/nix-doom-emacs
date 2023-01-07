@@ -136,4 +136,6 @@ self: super: {
   });
 
   vterm = super.vterm.overrideAttrs (old: { src = lock "vterm"; });
+
+  consult = super.consult.overrideAttrs (old: { src = lock "consult"; });
 }

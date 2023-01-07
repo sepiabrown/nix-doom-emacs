@@ -1,5 +1,22 @@
 {
   "nodes": {
+    "consult": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1670046353,
+        "narHash": "sha256-n7bka1tB8k4LEjApAOJNme7T0XIEP8ZqThVJGEIJk4c=",
+        "owner": "minad",
+        "repo": "consult",
+        "rev": "c3608b1f634aebf8770ecb1d933a1ae9c34ecdf8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "minad",
+        "repo": "consult",
+        "rev": "c3608b1f634aebf8770ecb1d933a1ae9c34ecdf8",
+        "type": "github"
+      }
+    },
     "doom-emacs": {
       "flake": false,
       "locked": {
@@ -338,6 +355,7 @@
     },
     "root": {
       "inputs": {
+        "consult": "consult",
         "doom-emacs": "doom-emacs",
         "doom-snippets": "doom-snippets",
         "emacs-overlay": "emacs-overlay",
